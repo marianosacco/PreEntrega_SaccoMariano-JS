@@ -52,7 +52,7 @@ if (Bienvenido !== "0") {
       let usuario3 = prompt("Ingresar nombre:");
       let mailUsuario3 = prompt("Ingresar mail:");
 
-      alert("Estaremos enviando más información al mail" + mailUsuario3);
+      alert("Estaremos enviando más información a:" + mailUsuario3);
       console.log("Usuario" + usuario3 + " mail " + mailUsuario3);
       break;
 
