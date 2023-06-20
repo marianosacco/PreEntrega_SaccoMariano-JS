@@ -16,9 +16,9 @@ if (Bienvenido !== "0") {
       alert(
         "TNA actual del 97% - Ganancia $8.083,33. Si te interesa abrir una cuenta con nosotros, por favor indicanos los datos que solicitamos a continuación"
       );
-      let usuario = prompt("Ingresar nombre");
-      let mailUsuario = prompt("Ingresaar mail");
-      alert("Estaremos enviando más información al mail " + mailUsuario);
+      let usuario = prompt("Ingresar nombre:");
+      let mailUsuario = prompt("Ingresar mail:");
+      alert("Estaremos enviando más información a:" + mailUsuario);
       console.log("Usuario" + usuario + " mail " + mailUsuario);
       break;
 
@@ -26,9 +26,9 @@ if (Bienvenido !== "0") {
       alert(
         "TNA actual del 97% - Ganancia $40.416,66. Si te interesa abrir una cuenta con nosotros, por favor indicanos los datos que solicitamos a continuación"
       );
-      let usuario1 = prompt("Ingresar nombre");
-      let mailUsuario1 = prompt("Ingresaar mail");
-      alert("Estaremos enviando más información al mail" + mailUsuario1);
+      let usuario1 = prompt("Ingresar nombre:");
+      let mailUsuario1 = prompt("Ingresar mail:");
+      alert("Estaremos enviando más información a:" + mailUsuario1);
       console.log("Usuario" + usuario1 + " mail " + mailUsuario1);
       break;
 
@@ -38,19 +38,19 @@ if (Bienvenido !== "0") {
       );
       let usuario2 = prompt("Ingresar nombre");
       let mailUsuario2 = prompt("Ingresaar mail");
-      alert("Estaremos enviando más información al mail" + mailUsuario2);
+      alert("Estaremos enviando más información a:" + mailUsuario2);
       console.log("Usuario" + usuario2 + " mail " + mailUsuario2);
       break;
 
     case "4":
       let valorCliente = Number(
-        prompt("Por favor indique su Importe a stackear")
+        prompt("Por favor indique el valor que desea calcular su interés")
       );
       alert(
         "TNA actual del 97% - Ganancia" + porcentual(valorCliente, TasaBanco)
       );
-      let usuario3 = prompt("Ingresar nombre");
-      let mailUsuario3 = prompt("Ingresaar mail");
+      let usuario3 = prompt("Ingresar nombre:");
+      let mailUsuario3 = prompt("Ingresar mail:");
 
       alert("Estaremos enviando más información al mail" + mailUsuario3);
       console.log("Usuario" + usuario3 + " mail " + mailUsuario3);
